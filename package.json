@@ -1,0 +1,35 @@
+{
+  "name": "anonymous-communication",
+  "version": "1.0.0",
+  "description": "Privacy-first anonymous messaging and voice/video calling app",
+  "type": "module",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "start": "concurrently \"npm run server\" \"npm run client-dev\"",
+    "server": "cd server && npm start",
+    "client-dev": "cd client && npm run dev",
+    "client-build": "cd client && npm run build",
+    "client-preview": "cd client && npm run preview",
+    "electron-dev": "cd client && npm run electron-dev",
+    "electron-build": "cd client && npm run electron-builder"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "anonymous",
+    "privacy",
+    "webrtc",
+    "electron",
+    "react",
+    "messaging",
+    "voice",
+    "video"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/anonymous-communaction.git"
+  }
+}
