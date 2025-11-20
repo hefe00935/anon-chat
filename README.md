@@ -446,9 +446,6 @@ MIT License - See LICENSE file
 
 For issues, questions, or privacy concerns:
 - Open a GitHub issue
-- Email: privacy@your-domain.com
-
----
 
 **Last Updated**: November 2024
 **Node Compatibility**: 18.0.0+
